@@ -12,7 +12,7 @@
 	<artifactId>ws</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ws</name>
-	<description>Registration &amp; Authentication with SpringBoot and React</description>
+	<description>Registration Authentication with SpringBoot and React</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -24,6 +24,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.30</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
